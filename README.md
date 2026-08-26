@@ -1,27 +1,39 @@
-# Python Programming Language Handbook
+# :book: Python Programming Language Handbook
 
 ---
 
 ## Overview
 
-Hi, Hope you are doing well! And, welcome to the _Python Programming Language Handbook_. This repository contains the resources for Python programming language, especially, those who want to self learn. Instead of using regular Python files, there, [marimo](https://marimo.io/) notebooks have been used. This is an excellent Python notebook, alternative to Jupyter Notebook one. So, along with Python programming language, the repository also teaches how to get started with marimo notebooks.
+This repository contains resources for the Python Programming Language, especially for those who want to learn on their own. Here, instead of regular Python files, [marimo](https://marimo.io/) notebooks are used. This is a new Python notebook addressing the limitations of the Jupyter Notebook. So, along with learning the Python Programming Language, we will also learn how to get started with marimo notebooks.
+
+---
+
+## [Installation](installation.md)
 
 ---
 
 ## Table of Contents
 
-- [**Installation**](docs/installation.md)
-
 - **Lesson 01**:
     - [Print Function and Variables](Lesson_01/01_Print_Function_and_Variables.py)
     - [User Input and Formatting](Lesson_01/02_User_Input_and_Formatting.py)
     - [Python Builtin Functions](Lesson_01/03_Python_Builtin_Functions.py)
-    - [Excercise](Lesson_01/04_Excercise.py)
-    - [Area of Circle](Lesson_01/05_Project/01_Area_of_Circle.py)
-    - [Simple Calculator](Lesson_01/05_Project/02_Simple_Calculator.py)
-    - [Simple Prime Number Checker](Lesson_01/05_Project/03_Simple_Prime_Number_Checker.py)
+    - Excercises
+        - [Swap the Values in Tuple](Lesson_01/04_Excercise/01_Swap_the_Values_in_Tuple.py)
+        - [Conversion into Uppercase](Lesson_01/04_Excercise/02_Conversion_into_Uppercase.py)
+        - [For Loop with Print Function](Lesson_01/04_Excercise/03_For_Loop_with_Print_Function.py)
+        - [Print Function using Variables](Lesson_01/04_Excercise/04_Print_Function_using_Variables.py)
+        - [While Loop with Print Function](Lesson_01/04_Excercise/05_While_Loop_with_Print_Function.py)
+        - [User Input and Conversion into Integer](Lesson_01/04_Excercise/06_User_Input_and_Conversion_to_Integer.py)
+        - [Mathematical Operations and Formatting](Lesson_01/04_Excercise/07_Mathematical_Oprations_and_Formatting.py)
+        - [User Input and Print Function using try-except Block](Lesson_01/04_Excercise/08_User_Input_and_Print_Function_Using_Try_Except_Block.py)
+        - [Conversion into Different Number System and Formatting](Lesson_01/04_Excercise/04_Conversion_into_Different_Number_System_and_Formatting.py)
+    - Projects
+        - [Area of Circle](Lesson_01/05_Project/01_Area_of_Circle.py)
+        - [Simple Calculator](Lesson_01/05_Project/02_Simple_Calculator.py)
+        - [Simple Prime Number Checker](Lesson_01/05_Project/03_Simple_Prime_Number_Checker.py)
 
-- **Lesson_02**:
+- **Lesson 02**:
     - [01_Basic.py](Lesson_02/01_Basic.py)
 
 - **Lesson_05**:
