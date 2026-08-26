@@ -1,7 +1,6 @@
 numpy
 pandas
 marimo
-mkdocs
 seaborn
+nbformat
 matplotlib
-mkdocs-marimo

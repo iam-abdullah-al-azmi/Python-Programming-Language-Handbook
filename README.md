@@ -9,23 +9,23 @@ This repository contains resources for the Python Programming Language, especial
 ## Table of Contents
 
 - **Lesson 01**:
-    - [Print Function and Variables](Lesson_01/01_Print_Function_and_Variables.py)
-    - [User Input and Formatting](Lesson_01/02_User_Input_and_Formatting.py)
-    - [Python Builtin Functions](Lesson_01/03_Python_Builtin_Functions.py)
+    - [Print Function and Variables](Lesson_01/01_Print_Function_and_Variables.ipynb)
+    - [User Input and Formatting](Lesson_01/02_User_Input_and_Formatting.ipynb)
+    - [Python Builtin Functions](Lesson_01/03_Python_Builtin_Functions.ipynb)
     - Excercises
-        - [Swap the Values in Tuple](Lesson_01/04_Excercise/01_Swap_the_Values_in_Tuple.py)
-        - [Conversion into Uppercase](Lesson_01/04_Excercise/02_Conversion_into_Uppercase.py)
-        - [For Loop with Print Function](Lesson_01/04_Excercise/03_For_Loop_with_Print_Function.py)
-        - [Print Function using Variables](Lesson_01/04_Excercise/04_Print_Function_using_Variables.py)
-        - [While Loop with Print Function](Lesson_01/04_Excercise/05_While_Loop_with_Print_Function.py)
-        - [User Input and Conversion into Integer](Lesson_01/04_Excercise/06_User_Input_and_Conversion_to_Integer.py)
-        - [Mathematical Operations and Formatting](Lesson_01/04_Excercise/07_Mathematical_Oprations_and_Formatting.py)
-        - [User Input and Print Function using try-except Block](Lesson_01/04_Excercise/08_User_Input_and_Print_Function_Using_Try_Except_Block.py)
-        - [Conversion into Different Number System and Formatting](Lesson_01/04_Excercise/04_Conversion_into_Different_Number_System_and_Formatting.py)
+        - [Swap the Values in Tuple](Lesson_01/04_Excercise/01_Swap_the_Values_in_Tuple.ipynb)
+        - [Conversion into Uppercase](Lesson_01/04_Excercise/02_Conversion_into_Uppercase.ipynb)
+        - [For Loop with Print Function](Lesson_01/04_Excercise/03_For_Loop_with_Print_Function.ipynb)
+        - [Print Function using Variables](Lesson_01/04_Excercise/04_Print_Function_using_Variables.ipynb)
+        - [While Loop with Print Function](Lesson_01/04_Excercise/05_While_Loop_with_Print_Function.ipynb)
+        - [User Input and Conversion into Integer](Lesson_01/04_Excercise/06_User_Input_and_Conversion_to_Integer.ipynb)
+        - [Mathematical Operations and Formatting](Lesson_01/04_Excercise/07_Mathematical_Oprations_and_Formatting.ipynb)
+        - [User Input and Print Function using try-except Block](Lesson_01/04_Excercise/08_User_Input_and_Print_Function_Using_Try_Except_Block.ipynb)
+        - [Conversion into Different Number System and Formatting](Lesson_01/04_Excercise/09_Conversion_into_Different_Number_System_and_Formatting.ipynb)
     - Projects
-        - [Area of Circle](Lesson_01/05_Project/01_Area_of_Circle.py)
-        - [Simple Calculator](Lesson_01/05_Project/02_Simple_Calculator.py)
-        - [Simple Prime Number Checker](Lesson_01/05_Project/03_Simple_Prime_Number_Checker.py)
+        - [Area of Circle](Lesson_01/05_Project/01_Area_of_Circle.ipynb)
+        - [Simple Calculator](Lesson_01/05_Project/02_Simple_Calculator.ipynb)
+        - [Simple Prime Number Checker](Lesson_01/05_Project/03_Simple_Prime_Number_Checker.ipynb)
 
 - **Lesson 02**:
     - [01_Basic.py](Lesson_02/01_Basic.py)
