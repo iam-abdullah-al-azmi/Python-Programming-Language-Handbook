@@ -1,16 +1,10 @@
 # :book: Python Programming Language Handbook
 
----
-
 ## Overview
 
 This repository contains resources for the Python Programming Language, especially for those who want to learn on their own. Here, instead of regular Python files, [marimo](https://marimo.io/) notebooks are used. This is a new Python notebook addressing the limitations of the Jupyter Notebook. So, along with learning the Python Programming Language, we will also learn how to get started with marimo notebooks.
 
----
-
 ## [Installation](installation.md)
-
----
 
 ## Table of Contents
 
