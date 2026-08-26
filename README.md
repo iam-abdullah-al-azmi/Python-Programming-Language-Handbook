@@ -9,81 +9,98 @@ This repository contains resources for the Python Programming Language, especial
 ## Table of Contents
 
 - **Lesson 01**:
-    - [Print Function and Variables](Lesson_01/01_Print_Function_and_Variables.ipynb)
-    - [User Input and Formatting](Lesson_01/02_User_Input_and_Formatting.ipynb)
-    - [Python Builtin Functions](Lesson_01/03_Python_Builtin_Functions.ipynb)
+    - [Print Function and Variables](Lesson_01/01_Print_Function_and_Variables.py)
+    - [User Input and Formatting](Lesson_01/02_User_Input_and_Formatting.py)
+    - [Python Builtin Functions](Lesson_01/03_Python_Builtin_Functions.py)
     - Excercises
-        - [Swap the Values in Tuple](Lesson_01/04_Excercise/01_Swap_the_Values_in_Tuple.ipynb)
-        - [Conversion into Uppercase](Lesson_01/04_Excercise/02_Conversion_into_Uppercase.ipynb)
-        - [For Loop with Print Function](Lesson_01/04_Excercise/03_For_Loop_with_Print_Function.ipynb)
-        - [Print Function using Variables](Lesson_01/04_Excercise/04_Print_Function_using_Variables.ipynb)
-        - [While Loop with Print Function](Lesson_01/04_Excercise/05_While_Loop_with_Print_Function.ipynb)
-        - [User Input and Conversion into Integer](Lesson_01/04_Excercise/06_User_Input_and_Conversion_to_Integer.ipynb)
-        - [Mathematical Operations and Formatting](Lesson_01/04_Excercise/07_Mathematical_Oprations_and_Formatting.ipynb)
-        - [User Input and Print Function using try-except Block](Lesson_01/04_Excercise/08_User_Input_and_Print_Function_Using_Try_Except_Block.ipynb)
-        - [Conversion into Different Number System and Formatting](Lesson_01/04_Excercise/09_Conversion_into_Different_Number_System_and_Formatting.ipynb)
+        - [Swap the Values in Tuple](Lesson_01/04_Excercise/01_Swap_the_Values_in_Tuple.py)
+        - [Conversion into Uppercase](Lesson_01/04_Excercise/02_Conversion_into_Uppercase.py)
+        - [For Loop with Print Function](Lesson_01/04_Excercise/03_For_Loop_with_Print_Function.py)
+        - [Print Function using Variables](Lesson_01/04_Excercise/04_Print_Function_using_Variables.py)
+        - [While Loop with Print Function](Lesson_01/04_Excercise/05_While_Loop_with_Print_Function.py)
+        - [User Input and Conversion into Integer](Lesson_01/04_Excercise/06_User_Input_and_Conversion_to_Integer.py)
+        - [Mathematical Operations and Formatting](Lesson_01/04_Excercise/07_Mathematical_Oprations_and_Formatting.py)
+        - [User Input and Print Function using try-except Block](Lesson_01/04_Excercise/08_User_Input_and_Print_Function_Using_Try_Except_Block.py)
+        - [Conversion into Different Number System and Formatting](Lesson_01/04_Excercise/09_Conversion_into_Different_Number_System_and_Formatting.py)
     - Projects
-        - [Area of Circle](Lesson_01/05_Project/01_Area_of_Circle.ipynb)
-        - [Simple Calculator](Lesson_01/05_Project/02_Simple_Calculator.ipynb)
-        - [Simple Prime Number Checker](Lesson_01/05_Project/03_Simple_Prime_Number_Checker.ipynb)
+        - [Area of Circle](Lesson_01/05_Projects/01_Area_of_Circle.py)
+        - [Simple Calculator](Lesson_01/05_Projects/02_Simple_Calculator.py)
+        - [Simple Prime Number Checker](Lesson_01/05_Projects/03_Simple_Prime_Number_Checker.py)
 
 - **Lesson 02**:
-    - [01_Basic.py](Lesson_02/01_Basic.py)
+    - [For Loop](Lesson_02/01_For_Loop.py)
+    - [User Input with While Loop](Lesson_02/02_User_Input_with_While_Loop.py)
+    - [If-Else Statement](Lesson_02/03_If_Else_Statement.py)
+    - Excercises
+        - [Sum of Reversed Number using While Loop](Lesson_02/04_Excercises/01_Sum_of_Reversed_Number_using_While_Loop.py)
+        - [Sum of Number using While Loop](Lesson_02/04_Excercises/02_Sum_of_Number_using_While_Loop.py)
+        - [Finding Perfect Number Using For Loop and If-Else Statement](Lesson_02/04_Excercises/03_Finding_Perfect_Number_Using_For_Loop_and_If_Else_Statement.py)
+        - [Finding Armstrong Number using While and If-Else Statement](Lesson_02/04_Excercises/04_Finding_Armstrong_Number_using_While_and_If_Else_Statement.py)
+        - [Finding Numbers in Reversed Order](Lesson_02/04_Excercises/05_Finding_Numbers_in_Reversed_Order.py)
+        - [Even Sum of Numbers](Lesson_02/04_Excercises/06_Even_Sum_of_Numbers.py)
+        - [Sum of Numbers using Different Conditions](Lesson_02/04_Excercises/07_Sum_of_Numbers_using_Different_Conditions.py)
+        - [Multiplication Table](Lesson_02/04_Excercises/08_Multiplication_Table.py)
 
-- **Lesson_05**:
-    - [01_Set.py](Lesson_05/01_Set.py)
-    - [02_Tuple.py](Lesson_05/02_Tuple.py)
-    - [03_Dictionary.py](Lesson_05/03_Dictionary.py)
-    - [04_Dictionary.py](Lesson_05/04_Dictionary.py)
+- **Lesson 03**:
+    - abcd
 
-- **Lesson_06**:
-    - [01_Function.py](Lesson_06/01_Function.py)
-    - [02_Anatomy_of_Return.py](Lesson_06/02_Anatomy_of_Return.py)
-    - [03_Iterator_and_Generator.py](Lesson_06/03_Iterator_and_Generator.py)
-    - [04_Lambda_Function.py](Lesson_06/04_Lambda_Function.py)
-    - [05_Map_Function.py](Lesson_06/05_Map_Function.py)
-    - [06_Filter_Function.py](Lesson_06/06_Filter_Function.py)
-    - [07_Reduce_Function.py](Lesson_06/07_Reduce_Function.py)
+- **Lesson 04**:
+    - abcd
 
-- **Lesson_07**
-    - [01_Read_File.py](Lesson_07/01_Read_File.py)
-    - [02_Write_File.py](Lesson_07/02_Write_File.py)
-    - [03_Exception_Handling.py](Lesson_07/03_Exception_Handling.py)
-    - [04_Module.py](Lesson_07/04_Module.py)
+- **Lesson 05**:
+    - [Set](Lesson_05/01_Set.py)
+    - [Tuple](Lesson_05/02_Tuple.py)
+    - [Dictionary](Lesson_05/03_Dictionary.py)
+    - [Dictionary](Lesson_05/04_Dictionary.py)
 
-- **Lesson_08**
-    - [01_OOP.py](Lesson_08/01_OOP.py)
-    - [02_Inheritance.py](Lesson_08/02_Inheritance.py)
-    - [03_Polymorphism.py](Lesson_08/03_Polymorphism.py)
-    - [04_Abstraction.py](Lesson_08/04_Abstraction.py)
-    - [05_Incapsulation.py](Lesson_08/05_Incapsulation.py)
+- **Lesson 06**:
+    - [Function](Lesson_06/01_Function.py)
+    - [Anatomy of Return](Lesson_06/02_Anatomy_of_Return.py)
+    - [Iterator and Generator](Lesson_06/03_Iterator_and_Generator.py)
+    - [Lambda Function](Lesson_06/04_Lambda_Function.py)
+    - [Map Function](Lesson_06/05_Map_Function.py)
+    - [Filter Function](Lesson_06/06_Filter_Function.py)
+    - [Reduce Function](Lesson_06/07_Reduce_Function.py)
 
-- **Lesson_09**
-    - [01_Class_Methods.py](Lesson_09/01_Class_Methods.py)
+- **Lesson 07**:
+    - [Read File](Lesson_07/01_Read_File.py)
+    - [Write File](Lesson_07/02_Write_File.py)
+    - [Exception Handling](Lesson_07/03_Exception_Handling.py)
+    - [Module](Lesson_07/04_Module.py)
 
-- **Lesson_10**
-    - 01_NumPy.py
+- **Lesson 08**:
+    - [Object Oriented Programming](Lesson_08/01_OOP.py)
+    - [Inheritance](Lesson_08/02_Inheritance.py)
+    - [Polymorphism](Lesson_08/03_Polymorphism.py)
+    - [Abstraction](Lesson_08/04_Abstraction.py)
+    - [Incapsulation](Lesson_08/05_Incapsulation.py)
 
-- **Lesson_11**
-    - 01_NumPy.py
-    - 02_NumPy.py
-    - 03W_NumPy.py
+- **Lesson 09**:
+    - [Class Methods](Lesson_09/01_Class_Methods.py)
 
-- **Lesson_12**
-    - 01_Pandas.py
-    - 02_Pandas.py
+- **Lesson 10**:
+    - [NumPy](Lesson_10/01_NumPy.py)
 
-- **Lesson_13**
-    - 01_Pandas.py
-    - 02_Pandas.py
-    - 03_Pandas.py
-    - 04_Pandas.py
-    - 05_Pandas.py
+- **Lesson 11**:
+    - [NumPy](Lesson_11/01_NumPy.py)
+    - [NumPy](Lesson_11/02_NumPy.py)
+    - [NumPy](Lesson_11/03_NumPy.py)
 
-- **Lesson_14**
-    - 01_Matplotlib.py
-    - 02_Matplotlib.py
+- **Lesson 12**:
+    - [Pandas](Lesson_12/01_Pandas.py)
+    - [Pandas](Lesson_12/02_Pandas.py)
 
-- **Lesson_15**
-    - 01_Seaborn.py
-    - 02_Plotly.py
+- **Lesson 13**:
+    - [Pandas](Lesson_13/01_Pandas.py)
+    - [Pandas](Lesson_13/02_Pandas.py)
+    - [Pandas](Lesson_13/03_Pandas.py)
+    - [Pandas](Lesson_13/04_Pandas.py)
+    - [Pandas](Lesson_13/05_Pandas.py)
+
+- **Lesson 14**:
+    - [Matplotlib](Lesson_14/01_Matplotlib.py)
+    - [Matplotlib](Lesson_14/02_Matplotlib.py)
+
+- **Lesson 15**:
+    - [Seaborn](Lesson_15/01_Seaborn.py)
+    - [Plotly](Lesson_15/02_Plotly.py)
