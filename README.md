@@ -47,62 +47,74 @@ This repository contains resources for the Python Programming Language, especial
     - [Pattern Printing](Lesson_03/02_Pattern_Printing.py)
 
 - **Lesson 04**:
-  - [Data Types Problems](Lesson_04/01_Data_Types_Problems.py)
+  - Lessons
+    - [Data Types Problems](Lesson_04/01_Data_Types_Problems.py)
 
 - **Lesson 05**:
-  - [Set](Lesson_05/01_Set.py)
-  - [Tuple](Lesson_05/02_Tuple.py)
-  - [Dictionary](Lesson_05/03_Dictionary.py)
-  - [Dictionary](Lesson_05/04_Dictionary.py)
+  - Lessons
+    - [Set](Lesson_05/01_Set.py)
+    - [Tuple](Lesson_05/02_Tuple.py)
+    - [Dictionary](Lesson_05/03_Dictionary.py)
+    - [Dictionary](Lesson_05/04_Dictionary.py)
 
 - **Lesson 06**:
-  - [Function](Lesson_06/01_Function.py)
-  - [Anatomy of Return](Lesson_06/02_Anatomy_of_Return.py)
-  - [Iterator and Generator](Lesson_06/03_Iterator_and_Generator.py)
-  - [Lambda Function](Lesson_06/04_Lambda_Function.py)
-  - [Map Function](Lesson_06/05_Map_Function.py)
-  - [Filter Function](Lesson_06/06_Filter_Function.py)
-  - [Reduce Function](Lesson_06/07_Reduce_Function.py)
+  - Lessons
+    - [Function](Lesson_06/01_Function.py)
+    - [Anatomy of Return](Lesson_06/02_Anatomy_of_Return.py)
+    - [Iterator and Generator](Lesson_06/03_Iterator_and_Generator.py)
+    - [Lambda Function](Lesson_06/04_Lambda_Function.py)
+    - [Map Function](Lesson_06/05_Map_Function.py)
+    - [Filter Function](Lesson_06/06_Filter_Function.py)
+    - [Reduce Function](Lesson_06/07_Reduce_Function.py)
 
 - **Lesson 07**:
-  - [Read File](Lesson_07/01_Read_File.py)
-  - [Write File](Lesson_07/02_Write_File.py)
-  - [Exception Handling](Lesson_07/03_Exception_Handling.py)
-  - [Module](Lesson_07/04_Module.py)
+  - Lessons
+    - [Read File](Lesson_07/01_Read_File.py)
+    - [Write File](Lesson_07/02_Write_File.py)
+    - [Exception Handling](Lesson_07/03_Exception_Handling.py)
+    - [Module](Lesson_07/04_Module.py)
 
 - **Lesson 08**:
-  - [Object Oriented Programming](Lesson_08/01_OOP.py)
-  - [Inheritance](Lesson_08/02_Inheritance.py)
-  - [Polymorphism](Lesson_08/03_Polymorphism.py)
-  - [Abstraction](Lesson_08/04_Abstraction.py)
-  - [Incapsulation](Lesson_08/05_Incapsulation.py)
+  - Lessons
+    - [Object Oriented Programming](Lesson_08/01_OOP.py)
+    - [Inheritance](Lesson_08/02_Inheritance.py)
+    - [Polymorphism](Lesson_08/03_Polymorphism.py)
+    - [Abstraction](Lesson_08/04_Abstraction.py)
+    - [Incapsulation](Lesson_08/05_Incapsulation.py)
 
 - **Lesson 09**:
-  - [Class Methods](Lesson_09/01_Class_Methods.py)
+  - Lessons
+    - [Class Methods](Lesson_09/01_Class_Methods.py)
 
 - **Lesson 10**:
-  - [NumPy](Lesson_10/01_NumPy.py)
+  - Lessons
+    - [NumPy](Lesson_10/01_NumPy.py)
 
 - **Lesson 11**:
-  - [NumPy](Lesson_11/01_NumPy.py)
-  - [NumPy](Lesson_11/02_NumPy.py)
-  - [NumPy](Lesson_11/03_NumPy.py)
+  - Lessons
+    - [NumPy](Lesson_11/01_NumPy.py)
+    - [NumPy](Lesson_11/02_NumPy.py)
+    - [NumPy](Lesson_11/03_NumPy.py)
 
 - **Lesson 12**:
-  - [Pandas](Lesson_12/01_Pandas.py)
-  - [Pandas](Lesson_12/02_Pandas.py)
+  - Lessons
+    - [Pandas](Lesson_12/01_Pandas.py)
+    - [Pandas](Lesson_12/02_Pandas.py)
 
 - **Lesson 13**:
-  - [Pandas](Lesson_13/01_Pandas.py)
-  - [Pandas](Lesson_13/02_Pandas.py)
-  - [Pandas](Lesson_13/03_Pandas.py)
-  - [Pandas](Lesson_13/04_Pandas.py)
-  - [Pandas](Lesson_13/05_Pandas.py)
+  - Lessons
+    - [Pandas](Lesson_13/01_Pandas.py)
+    - [Pandas](Lesson_13/02_Pandas.py)
+    - [Pandas](Lesson_13/03_Pandas.py)
+    - [Pandas](Lesson_13/04_Pandas.py)
+    - [Pandas](Lesson_13/05_Pandas.py)
 
 - **Lesson 14**:
-  - [Matplotlib](Lesson_14/01_Matplotlib.py)
-  - [Matplotlib](Lesson_14/02_Matplotlib.py)
+  - Lessons
+    - [Matplotlib](Lesson_14/01_Matplotlib.py)
+    - [Matplotlib](Lesson_14/02_Matplotlib.py)
 
 - **Lesson 15**:
-  - [Seaborn](Lesson_15/01_Seaborn.py)
-  - [Plotly](Lesson_15/02_Plotly.py)
+  - Lessons
+    - [Plotly](Lesson_15/01_Plotly.py)
+    - [Seaborn](Lesson_15/02_Seaborn.py)
