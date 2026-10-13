@@ -38,23 +38,23 @@ To run a notebook as a read-only app instead, use `marimo run <file>`.
 
 The course follows the order of the [GeeksforGeeks Python tutorial](https://www.geeksforgeeks.org/python/python-programming-language-tutorial/): Basics, Functions, Data Structures, OOP Concepts, Exception Handling, File Handling, Packages or Libraries, and Data Science. The detailed list of every notebook and exercise is in [SYLLABUS.md](SYLLABUS.md).
 
-| Lesson | Topic |
-|---|---|
-| 01 | [Python Basics](SYLLABUS.md#lesson-01-python-basics) |
-| 02 | [Conditionals and Loops](SYLLABUS.md#lesson-02-conditionals-and-loops) |
-| 03 | [Functions](SYLLABUS.md#lesson-03-functions) |
-| 04 | [Functional Tools and Generators](SYLLABUS.md#lesson-04-functional-tools-and-generators) |
-| 05 | [Strings and Lists](SYLLABUS.md#lesson-05-strings-and-lists) |
-| 06 | [Tuples, Sets and Dictionaries](SYLLABUS.md#lesson-06-tuples-sets-and-dictionaries) |
-| 07 | [Classes and Objects](SYLLABUS.md#lesson-07-classes-and-objects) |
-| 08 | [OOP Principles](SYLLABUS.md#lesson-08-oop-principles) |
-| 09 | [Exceptions, Files and Modules](SYLLABUS.md#lesson-09-exceptions-files-and-modules) |
-| 10 | [NumPy Foundations](SYLLABUS.md#lesson-10-numpy-foundations) |
-| 11 | [NumPy Operations](SYLLABUS.md#lesson-11-numpy-operations) |
-| 12 | [Pandas Foundations](SYLLABUS.md#lesson-12-pandas-foundations) |
-| 13 | [Pandas Data Cleaning and Analysis](SYLLABUS.md#lesson-13-pandas-data-cleaning-and-analysis) |
-| 14 | [Matplotlib Visualization](SYLLABUS.md#lesson-14-matplotlib-visualization) |
-| 15 | [Seaborn and Plotly Visualization](SYLLABUS.md#lesson-15-seaborn-and-plotly-visualization) |
+| Lesson | Topic                                                                                        |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 01     | [Python Basics](SYLLABUS.md#lesson-01-python-basics)                                         |
+| 02     | [Conditionals and Loops](SYLLABUS.md#lesson-02-conditionals-and-loops)                       |
+| 03     | [Functions](SYLLABUS.md#lesson-03-functions)                                                 |
+| 04     | [Functional Tools and Generators](SYLLABUS.md#lesson-04-functional-tools-and-generators)     |
+| 05     | [Strings and Lists](SYLLABUS.md#lesson-05-strings-and-lists)                                 |
+| 06     | [Tuples, Sets and Dictionaries](SYLLABUS.md#lesson-06-tuples-sets-and-dictionaries)          |
+| 07     | [Classes and Objects](SYLLABUS.md#lesson-07-classes-and-objects)                             |
+| 08     | [OOP Principles](SYLLABUS.md#lesson-08-oop-principles)                                       |
+| 09     | [Exceptions, Files and Modules](SYLLABUS.md#lesson-09-exceptions-files-and-modules)          |
+| 10     | [NumPy Foundations](SYLLABUS.md#lesson-10-numpy-foundations)                                 |
+| 11     | [NumPy Operations](SYLLABUS.md#lesson-11-numpy-operations)                                   |
+| 12     | [Pandas Foundations](SYLLABUS.md#lesson-12-pandas-foundations)                               |
+| 13     | [Pandas Data Cleaning and Analysis](SYLLABUS.md#lesson-13-pandas-data-cleaning-and-analysis) |
+| 14     | [Matplotlib Visualization](SYLLABUS.md#lesson-14-matplotlib-visualization)                   |
+| 15     | [Seaborn and Plotly Visualization](SYLLABUS.md#lesson-15-seaborn-and-plotly-visualization)   |
 
 ## Repository layout
 
