@@ -61,7 +61,7 @@ The course follows the order of the [GeeksforGeeks Python tutorial](https://www.
 Each lesson has its own folder, and every lesson folder has the same shape, so you always know where to look.
 
 ```text
-Python-Programming-Handbook/
+Python-Programming-Language-Handbook/
 |-- README.md
 |-- SYLLABUS.md              the full list of lessons, notebooks and exercises
 |-- requirements.txt         Python packages used by the notebooks
