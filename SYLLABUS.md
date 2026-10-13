@@ -4,23 +4,23 @@ The course has 15 lessons. Each lesson has four lesson notebooks and four exerci
 
 Work through the lessons in order. Open the notebook of a lesson first, then do the exercises of the same lesson.
 
-| Lesson | Topic | GeeksforGeeks section |
+| Lesson | Topic |
 |---|---|---|
-| [01](#lesson-01-python-basics) | Python Basics | Basics |
-| [02](#lesson-02-conditionals-and-loops) | Conditionals and Loops | Basics |
-| [03](#lesson-03-functions) | Functions | Functions |
-| [04](#lesson-04-functional-tools-and-generators) | Functional Tools and Generators | Functions |
-| [05](#lesson-05-strings-and-lists) | Strings and Lists | Data Structures |
-| [06](#lesson-06-tuples-sets-and-dictionaries) | Tuples, Sets and Dictionaries | Data Structures |
-| [07](#lesson-07-classes-and-objects) | Classes and Objects | OOP Concepts |
-| [08](#lesson-08-oop-principles) | OOP Principles | OOP Concepts |
-| [09](#lesson-09-exceptions-files-and-modules) | Exceptions, Files and Modules | Exception Handling, File Handling and Packages or Libraries |
-| [10](#lesson-10-numpy-foundations) | NumPy Foundations | Data Science |
-| [11](#lesson-11-numpy-operations) | NumPy Operations | Data Science |
-| [12](#lesson-12-pandas-foundations) | Pandas Foundations | Data Science |
-| [13](#lesson-13-pandas-data-cleaning-and-analysis) | Pandas Data Cleaning and Analysis | Data Science |
-| [14](#lesson-14-matplotlib-visualization) | Matplotlib Visualization | Data Science |
-| [15](#lesson-15-seaborn-and-plotly-visualization) | Seaborn and Plotly Visualization | Data Science |
+| [01](#lesson-01-python-basics) | Python Basics |
+| [02](#lesson-02-conditionals-and-loops) | Conditionals and Loops |
+| [03](#lesson-03-functions) | Functions |
+| [04](#lesson-04-functional-tools-and-generators) | Functional Tools and Generators |
+| [05](#lesson-05-strings-and-lists) | Strings and Lists |
+| [06](#lesson-06-tuples-sets-and-dictionaries) | Tuples, Sets and Dictionaries |
+| [07](#lesson-07-classes-and-objects) | Classes and Objects |
+| [08](#lesson-08-oop-principles) | OOP Principles |
+| [09](#lesson-09-exceptions-files-and-modules) | Exceptions, Files and Modules |
+| [10](#lesson-10-numpy-foundations) | NumPy Foundations |
+| [11](#lesson-11-numpy-operations) | NumPy Operations |
+| [12](#lesson-12-pandas-foundations) | Pandas Foundations |
+| [13](#lesson-13-pandas-data-cleaning-and-analysis) | Pandas Data Cleaning and Analysis |
+| [14](#lesson-14-matplotlib-visualization) | Matplotlib Visualization |
+| [15](#lesson-15-seaborn-and-plotly-visualization) | Seaborn and Plotly Visualization |
 
 ## Lesson 01: Python Basics
 
