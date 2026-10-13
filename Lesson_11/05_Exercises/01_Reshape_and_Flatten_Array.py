@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="NumPy Operations")
+app = marimo.App(width="medium", app_title="NumPy Operations Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 01: Create a random 10x2 array (seed it), reshape it to 4x5, then flatten it row-wise and column-wise using ravel. Join two 2x3 arrays row-wise and column-wise using concatenate.
+    Exercise 01: Create a random 10x2 array (seed it), reshape it to 4x5, then flatten it row-wise and column-wise using ravel. Join two 2x3 arrays row-wise and column-wise using concatenate.
     """)
     return
 

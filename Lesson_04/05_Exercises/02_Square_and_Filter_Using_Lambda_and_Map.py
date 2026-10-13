@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Functional Tools and Generators")
+app = marimo.App(width="medium", app_title="Functional Tools and Generators Exercises")
 
 
 @app.cell
@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Exercise 02: Use map() with a lambda function to square every number in a list, then use filter() with a lambda function to keep only the squares greater than 20.

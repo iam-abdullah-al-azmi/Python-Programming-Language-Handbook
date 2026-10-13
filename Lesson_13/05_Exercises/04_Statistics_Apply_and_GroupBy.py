@@ -1,8 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-
-app = marimo.App(width="medium", app_title="Pandas Data Cleaning and Analysis")
+app = marimo.App(width="medium", app_title="Pandas Data Cleaning and Analysis Exercises")
 
 
 @app.cell
@@ -11,10 +10,11 @@ def _():
 
     return (mo,)
 
-@app.cell
+
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 04: Print the sum, max, min, mean, median, mode and standard deviation of Data Structure Marks and the correlation matrix of the three marks columns. Create a Total Marks column, give each student a grade with apply and a custom function, extract the enrollment year with to_datetime, and finally read ipl_2022_dataset.csv and use groupby to find the number of players and the average cost in crore rupees for each team.
+    Exercise 04: Print the sum, max, min, mean, median, mode and standard deviation of Data Structure Marks and the correlation matrix of the three marks columns. Create a Total Marks column, give each student a grade with apply and a custom function, extract the enrollment year with to_datetime, and finally read ipl_2022_dataset.csv and use groupby to find the number of players and the average cost in crore rupees for each team.
     """)
     return
 

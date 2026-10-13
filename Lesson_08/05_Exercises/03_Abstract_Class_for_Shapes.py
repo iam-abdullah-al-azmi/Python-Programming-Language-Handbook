@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="OOP Principles")
+app = marimo.App(width="medium", app_title="OOP Principles Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 03: Create an abstract Shape class with an abstract area() method. Implement it in Rectangle and Circle classes (use 3.14 for pi) and print the areas.
+    Exercise 03: Create an abstract Shape class with an abstract area() method. Implement it in Rectangle and Circle classes (use 3.14 for pi) and print the areas.
     """)
     return
 

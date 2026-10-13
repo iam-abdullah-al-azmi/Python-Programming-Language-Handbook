@@ -1,8 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-
-app = marimo.App(width="medium", app_title="Pandas Data Cleaning and Analysis")
+app = marimo.App(width="medium", app_title="Pandas Data Cleaning and Analysis Exercises")
 
 
 @app.cell
@@ -11,10 +10,11 @@ def _():
 
     return (mo,)
 
-@app.cell
+
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 02: Add a Country column, a Total Marks column, a Passed in DS column (above 70) using np.where, and First Name and Last Name columns using str.split.
+    Exercise 02: Add a Country column, a Total Marks column, a Passed in DS column (above 70) using np.where, and First Name and Last Name columns using str.split.
     """)
     return
 

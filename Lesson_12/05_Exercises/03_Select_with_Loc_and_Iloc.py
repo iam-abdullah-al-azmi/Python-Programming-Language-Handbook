@@ -1,8 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-
-app = marimo.App(width="medium", app_title="Pandas Foundations")
+app = marimo.App(width="medium", app_title="Pandas Foundations Exercises")
 
 
 @app.cell
@@ -11,10 +10,11 @@ def _():
 
     return (mo,)
 
-@app.cell
+
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 03: Select the FullName column (check that it is a Series) and print describe() for the marks columns. Using loc, select row 0, rows 3 to 7 and the CompletionStatus of rows 3 to 7. Then set StudentID as the index, select the rows at positions 3 to 6 with iloc and the row labelled PH1003 with loc.
+    Exercise 03: Select the FullName column (check that it is a Series) and print describe() for the marks columns. Using loc, select row 0, rows 3 to 7 and the CompletionStatus of rows 3 to 7. Then set StudentID as the index, select the rows at positions 3 to 6 with iloc and the row labelled PH1003 with loc.
     """)
     return
 

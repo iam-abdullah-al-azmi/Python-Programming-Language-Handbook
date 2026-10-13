@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="NumPy Operations")
+app = marimo.App(width="medium", app_title="NumPy Operations Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 04: Save a small 2D array to a temporary CSV text file with savetxt and read it back with genfromtxt.
+    Exercise 04: Save a small 2D array to a temporary CSV text file with savetxt and read it back with genfromtxt.
     """)
     return
 

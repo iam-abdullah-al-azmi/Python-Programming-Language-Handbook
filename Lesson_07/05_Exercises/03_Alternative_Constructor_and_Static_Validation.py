@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Classes and Objects")
+app = marimo.App(width="medium", app_title="Classes and Objects Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 03: Create a Person class with a class method from_string() that builds an object from a string like 'Azmi-22', and a static method that checks whether an age is valid (between 0 and 120) and is used inside the constructor.
+    Exercise 03: Create a Person class with a class method from_string() that builds an object from a string like 'Azmi-22', and a static method that checks whether an age is valid (between 0 and 120) and is used inside the constructor.
     """)
     return
 

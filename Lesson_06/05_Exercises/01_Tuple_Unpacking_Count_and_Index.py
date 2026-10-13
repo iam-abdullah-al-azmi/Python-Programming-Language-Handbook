@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Tuples, Sets and Dictionaries")
+app = marimo.App(width="medium", app_title="Tuples, Sets and Dictionaries Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 01: Swap the values of a, b and c by rotating them with tuple unpacking, then count how many times a value appears in a tuple and find the index of its first occurrence.
+    Exercise 01: Swap the values of a, b and c by rotating them with tuple unpacking, then count how many times a value appears in a tuple and find the index of its first occurrence.
     """)
     return
 

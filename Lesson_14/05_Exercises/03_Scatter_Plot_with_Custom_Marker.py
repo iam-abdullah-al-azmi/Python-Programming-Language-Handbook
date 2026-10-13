@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Matplotlib Visualization")
+app = marimo.App(width="medium", app_title="Matplotlib Visualization Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 03: Here, you have to draw a scatter plot of Chilling_Hours against IQ_Score using the x marker.
+    Exercise 03: Here, you have to draw a scatter plot of Chilling_Hours against IQ_Score using the x marker.
     """)
     return
 

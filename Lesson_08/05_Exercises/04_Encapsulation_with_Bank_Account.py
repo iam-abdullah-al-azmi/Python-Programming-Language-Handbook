@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="OOP Principles")
+app = marimo.App(width="medium", app_title="OOP Principles Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 04: Create a BankAccount class with a private balance. Provide deposit(), withdraw() and get_balance() methods, and do not allow withdrawing more than the balance.
+    Exercise 04: Create a BankAccount class with a private balance. Provide deposit(), withdraw() and get_balance() methods, and do not allow withdrawing more than the balance.
     """)
     return
 

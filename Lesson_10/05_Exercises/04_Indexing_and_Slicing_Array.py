@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="NumPy Foundations")
+app = marimo.App(width="medium", app_title="NumPy Foundations Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 04: Create a 3x4 array with arange, change one element, then print the first row, the last column and the 2x2 block in the top-left corner.
+    Exercise 04: Create a 3x4 array with arange, change one element, then print the first row, the last column and the 2x2 block in the top-left corner.
     """)
     return
 

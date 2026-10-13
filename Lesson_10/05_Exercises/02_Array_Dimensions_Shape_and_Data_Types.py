@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="NumPy Foundations")
+app = marimo.App(width="medium", app_title="NumPy Foundations Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 02: Create a 1D, a 2D and a 3D NumPy array and print the dimension, shape, size and data type of each one. Then create arrays from ints, from a mix of ints and floats and from a mix of ints and strings to show the upcasting, and convert an int16 array to int8 using astype.
+    Exercise 02: Create a 1D, a 2D and a 3D NumPy array and print the dimension, shape, size and data type of each one. Then create arrays from ints, from a mix of ints and floats and from a mix of ints and strings to show the upcasting, and convert an int16 array to int8 using astype.
     """)
     return
 

@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Exceptions, Files and Modules")
+app = marimo.App(width="medium", app_title="Exceptions, Files and Modules Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 03: Inside a temporary folder create a folder called reports, write a text file into it, copy the file to a new file name, list the folder, check the file size and finally delete the whole temporary folder.
+    Exercise 03: Inside a temporary folder create a folder called reports, write a text file into it, copy the file to a new file name, list the folder, check the file size and finally delete the whole temporary folder.
     """)
     return
 

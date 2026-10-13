@@ -1,8 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-
-app = marimo.App(width="medium", app_title="Pandas Foundations")
+app = marimo.App(width="medium", app_title="Pandas Foundations Exercises")
 
 
 @app.cell
@@ -11,10 +10,11 @@ def _():
 
     return (mo,)
 
-@app.cell
+
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 04: On a copy of the DataFrame rename FullName to Full Name, drop the Instructor column and drop row 0. Then set the Python Marks of row 1 to 90, add 2 marks to the Python Marks of rows 1 to 3, and loop over the first five rows with iterrows and itertuples printing each student's name and Python Marks.
+    Exercise 04: On a copy of the DataFrame rename FullName to Full Name, drop the Instructor column and drop row 0. Then set the Python Marks of row 1 to 90, add 2 marks to the Python Marks of rows 1 to 3, and loop over the first five rows with iterrows and itertuples printing each student's name and Python Marks.
     """)
     return
 

@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Classes and Objects")
+app = marimo.App(width="medium", app_title="Classes and Objects Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 02: Create a Rectangle class with a constructor that takes length and width, and methods that return its area and perimeter. Create two rectangles and print the results.
+    Exercise 02: Create a Rectangle class with a constructor that takes length and width, and methods that return its area and perimeter. Create two rectangles and print the results.
     """)
     return
 

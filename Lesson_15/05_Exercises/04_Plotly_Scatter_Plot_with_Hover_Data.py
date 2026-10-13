@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Seaborn and Plotly Visualization")
+app = marimo.App(width="medium", app_title="Seaborn and Plotly Visualization Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 04: Here, you have to draw a Plotly scatter plot of study_hours against test_score, colored by gender, sized by Tshirt_size, and showing subject and hostel on hover.
+    Exercise 04: Here, you have to draw a Plotly scatter plot of study_hours against test_score, colored by gender, sized by Tshirt_size, and showing subject and hostel on hover.
     """)
     return
 

@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Functions")
+app = marimo.App(width="medium", app_title="Functions Exercises")
 
 
 @app.cell
@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Exercise 02: Write a function that takes a list of numbers and returns the minimum, maximum and sum together, then unpack the returned tuple.

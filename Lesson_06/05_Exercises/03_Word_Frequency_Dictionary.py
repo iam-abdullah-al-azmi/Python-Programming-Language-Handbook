@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Tuples, Sets and Dictionaries")
+app = marimo.App(width="medium", app_title="Tuples, Sets and Dictionaries Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 03: Count how many times each word appears in a sentence using a dictionary, then print its keys, values and items.
+    Exercise 03: Count how many times each word appears in a sentence using a dictionary, then print its keys, values and items.
     """)
     return
 

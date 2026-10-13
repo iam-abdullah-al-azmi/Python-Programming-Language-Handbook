@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="NumPy Foundations")
+app = marimo.App(width="medium", app_title="NumPy Foundations Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 01: Multiply a Python list and a NumPy array by 3 and explain the difference in the output.
+    Exercise 01: Multiply a Python list and a NumPy array by 3 and explain the difference in the output.
     """)
     return
 

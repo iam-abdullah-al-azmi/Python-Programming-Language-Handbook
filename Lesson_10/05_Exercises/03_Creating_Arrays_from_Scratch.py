@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="NumPy Foundations")
+app = marimo.App(width="medium", app_title="NumPy Foundations Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 03: Create arrays using zeros, ones, full and random.randint (seed the generator), then an array of even numbers from 2 to 18 with arange, 5 evenly spaced values between 2 and 20 with linspace and a 4x4 identity matrix. Print their shapes and values.
+    Exercise 03: Create arrays using zeros, ones, full and random.randint (seed the generator), then an array of even numbers from 2 to 18 with arange, 5 evenly spaced values between 2 and 20 with linspace and a 4x4 identity matrix. Print their shapes and values.
     """)
     return
 

@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Exceptions, Files and Modules")
+app = marimo.App(width="medium", app_title="Exceptions, Files and Modules Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 04: Create a small module file in a temporary folder with a function, import it, and call the function. Delete the temporary files afterwards.
+    Exercise 04: Create a small module file in a temporary folder with a function, import it, and call the function. Delete the temporary files afterwards.
     """)
     return
 

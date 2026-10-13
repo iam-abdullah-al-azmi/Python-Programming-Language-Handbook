@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Classes and Objects")
+app = marimo.App(width="medium", app_title="Classes and Objects Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 04: Create a Student class that keeps count of how many objects were created in a class variable, and a class method that returns this count.
+    Exercise 04: Create a Student class that keeps count of how many objects were created in a class variable, and a class method that returns this count.
     """)
     return
 

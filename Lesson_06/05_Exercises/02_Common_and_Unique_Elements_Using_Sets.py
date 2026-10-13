@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Tuples, Sets and Dictionaries")
+app = marimo.App(width="medium", app_title="Tuples, Sets and Dictionaries Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 02: Find the common elements of two lists using the set intersection() method, then remove the duplicate values from a list using a set and print the sorted unique values.
+    Exercise 02: Find the common elements of two lists using the set intersection() method, then remove the duplicate values from a list using a set and print the sorted unique values.
     """)
     return
 

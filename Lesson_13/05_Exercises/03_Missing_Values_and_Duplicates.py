@@ -1,8 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-
-app = marimo.App(width="medium", app_title="Pandas Data Cleaning and Analysis")
+app = marimo.App(width="medium", app_title="Pandas Data Cleaning and Analysis Exercises")
 
 
 @app.cell
@@ -11,10 +10,11 @@ def _():
 
     return (mo,)
 
-@app.cell
+
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 03: Count the missing values in each column, check whether Python Marks has any NaN, print the unique instructors and the number of unique values per column. Then count duplicate rows, keep only the first student of each CompletionStatus with drop_duplicates, drop rows where Python Marks is missing and fill the missing Python Marks with the column mean.
+    Exercise 03: Count the missing values in each column, check whether Python Marks has any NaN, print the unique instructors and the number of unique values per column. Then count duplicate rows, keep only the first student of each CompletionStatus with drop_duplicates, drop rows where Python Marks is missing and fill the missing Python Marks with the column mean.
     """)
     return
 

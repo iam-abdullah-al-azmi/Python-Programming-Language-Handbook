@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Tuples, Sets and Dictionaries")
+app = marimo.App(width="medium", app_title="Tuples, Sets and Dictionaries Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 04: Merge two dictionaries into a new one (the value from the second dictionary wins for a repeated key), then use a dictionary of student marks to print the average mark of one student with two decimal places.
+    Exercise 04: Merge two dictionaries into a new one (the value from the second dictionary wins for a repeated key), then use a dictionary of student marks to print the average mark of one student with two decimal places.
     """)
     return
 

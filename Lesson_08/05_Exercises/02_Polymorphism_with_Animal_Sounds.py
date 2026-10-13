@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="OOP Principles")
+app = marimo.App(width="medium", app_title="OOP Principles Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 02: Create Dog, Cat and Cow classes that each have a sound() method. Loop over objects of all three classes and call the same method on each.
+    Exercise 02: Create Dog, Cat and Cow classes that each have a sound() method. Loop over objects of all three classes and call the same method on each.
     """)
     return
 

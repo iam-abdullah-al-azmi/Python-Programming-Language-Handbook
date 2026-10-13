@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Functions")
+app = marimo.App(width="medium", app_title="Functions Exercises")
 
 
 @app.cell
@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Exercise 01: Write a function that greets a person by name. If no name is given, it should greet 'Guest' by default.

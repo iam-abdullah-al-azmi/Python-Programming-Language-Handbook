@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="NumPy Operations")
+app = marimo.App(width="medium", app_title="NumPy Operations Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 02: Add, subtract, multiply and divide two arrays element-wise, then square a 2x5 array and add a 1D array to it using broadcasting.
+    Exercise 02: Add, subtract, multiply and divide two arrays element-wise, then square a 2x5 array and add a 1D array to it using broadcasting.
     """)
     return
 

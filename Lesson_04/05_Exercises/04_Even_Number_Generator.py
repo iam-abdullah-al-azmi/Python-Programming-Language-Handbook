@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Functional Tools and Generators")
+app = marimo.App(width="medium", app_title="Functional Tools and Generators Exercises")
 
 
 @app.cell
@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Exercise 04: Write a generator function that yields the even numbers up to a given limit, and use next() and a for loop to read values from it.

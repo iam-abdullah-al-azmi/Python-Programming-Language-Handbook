@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Strings and Lists")
+app = marimo.App(width="medium", app_title="Strings and Lists Exercises")
 
 
 @app.cell
@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Exercise 04: Create a list of the squares of all even numbers from 1 to 20 using list comprehension.

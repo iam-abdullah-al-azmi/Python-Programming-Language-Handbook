@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Matplotlib Visualization")
+app = marimo.App(width="medium", app_title="Matplotlib Visualization Exercises")
 
 
 @app.cell
@@ -11,10 +11,10 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-        Exercise 02: Here, you have to plot Programming and Digital Marketing enrollment together, using different colors, markers and a legend.
+    Exercise 02: Here, you have to plot Programming and Digital Marketing enrollment together, using different colors, markers and a legend.
     """)
     return
 

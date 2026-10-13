@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.24.0"
-app = marimo.App(width="medium", app_title="Functional Tools and Generators")
+app = marimo.App(width="medium", app_title="Functional Tools and Generators Exercises")
 
 
 @app.cell
@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     Exercise 01: Write a lambda function that converts a temperature from Celsius to Fahrenheit (F = C * 9 / 5 + 32) and another lambda that returns the larger of two numbers.
