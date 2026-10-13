@@ -61,7 +61,7 @@ The course follows the order of the [GeeksforGeeks Python tutorial](https://www.
 Each lesson has its own folder, and every lesson folder has the same shape, so you always know where to look.
 
 ```text
-Python-Programming-Language-Handbook/
+Python-Programming-Handbook/
 |-- README.md
 |-- SYLLABUS.md              the full list of lessons, notebooks and exercises
 |-- requirements.txt         Python packages used by the notebooks
@@ -72,7 +72,6 @@ Python-Programming-Language-Handbook/
 |   |-- 03_Variables_and_Data_Types.py
 |   |-- 04_Operators_and_Math_Functions.py
 |   `-- 05_Exercises/         four exercises that practise this lesson
-|-- Lesson_02/               has an extra 06_Projects/ folder
 |-- ...
 `-- Lesson_15/               data files used by a lesson sit next to its notebooks
 ```
@@ -83,7 +82,6 @@ Python-Programming-Language-Handbook/
 2. In each lesson, open the four notebooks in numbered order and run the cells as you read.
 3. Change the code and run it again. Experimenting is the fastest way to learn.
 4. Do the four exercises in the lesson's `05_Exercises` folder. Each exercise has a description and a worked solution; try it yourself before you read the solution.
-5. After Lesson 02, try the three projects in `Lesson_02/06_Projects`.
 
 Notebooks that read data files (Lessons 12 to 15) find them next to the notebook, so run them from inside this repository.
 
