@@ -1,6 +1,9 @@
 numpy
 pandas
+plotly
 marimo
+pyarrow
 seaborn
+openpyxl
 nbformat
 matplotlib
