@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 03: Create a Person class with a class method from_string() that builds an object from a string like 'Azmi-22', and a static method that checks whether an age is valid (between 0 and 120) and is used inside the constructor.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     class Person:
         def __init__(self, name, age):
@@ -36,7 +36,6 @@ def _():
         @staticmethod
         def is_valid_age(age):
             return 0 <= age <= 120
-
 
     person = Person.from_string("Azmi-22")
     print(f"Name: {person.name} | Age: {person.age}")

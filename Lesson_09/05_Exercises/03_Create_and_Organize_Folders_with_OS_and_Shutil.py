@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 03: Inside a temporary folder create a folder called reports, write a text file into it, copy the file to a new file name, list the folder, check the file size and finally delete the whole temporary folder.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import os
     import shutil

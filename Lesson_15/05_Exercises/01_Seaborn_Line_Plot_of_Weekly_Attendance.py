@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 01: Here, you have to draw a Seaborn line plot of attendance_rate by week, with a separate line for each gender and no error band.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import pandas as pd
     import seaborn as sns
@@ -27,7 +27,9 @@ def _():
 
     df = pd.read_csv(Path(__file__).resolve().parent.parent / "sns_data.csv")
 
-    ax = sns.lineplot(data=df, x="week", y="attendance_rate", hue="gender", errorbar=None)
+    ax = sns.lineplot(
+        data=df, x="week", y="attendance_rate", hue="gender", errorbar=None
+    )
     ax
     return
 

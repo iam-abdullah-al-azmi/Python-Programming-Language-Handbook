@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     # Operators and Math Functions
@@ -20,7 +20,7 @@ def _(mo):
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Arithmetic operators
@@ -31,14 +31,14 @@ def _(mo):
 
 @app.cell
 def _():
-    _a = 17
-    _b = 5
-    print(_a + _b, _a - _b, _a * _b)
-    print(_a / _b, _a // _b, _a % _b, _a**_b)
+    a = 17
+    b = 5
+    print(a + b, a - b, a * b)
+    print(a / b, a // b, a % b, a**b)
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Assignment operators
@@ -49,20 +49,20 @@ def _(mo):
 
 @app.cell
 def _():
-    n = 10
-    n += 5
-    print(n)
-    n *= 2
-    print(n)
-    n //= 4
-    print(n)
-    n **= 2
-    print(n)
+    c = 10
+    c += 5
+    print(c)
+    c *= 2
+    print(c)
+    c //= 4
+    print(c)
+    c **= 2
+    print(c)
 
-    return (n,)
+    return (c,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Relational operators
@@ -73,13 +73,13 @@ def _(mo):
 
 @app.cell
 def _():
-    _a = 17
-    _b = 5
-    print(_a == _b, _a != _b, _a < _b, _a > _b, _a <= 17, _b >= 6)
+    x = 17
+    y = 5
+    print(x == y, x != y, x < y, x > y, x <= 17, y >= 6)
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Logical operators
@@ -90,14 +90,14 @@ def _(mo):
 
 @app.cell
 def _():
-    _age = 21
-    print(_age > 18 and _age < 30)
-    print(_age < 18 or _age == 21)
-    print(not _age > 18)
+    age = 21
+    print(age > 18 and age < 30)
+    print(age < 18 or age == 21)
+    print(not age > 18)
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Bitwise operators
@@ -108,15 +108,15 @@ def _(mo):
 
 @app.cell
 def _():
-    _a = 12  # 1100
-    _b = 10  # 1010
-    print(_a & _b, _a | _b, _a ^ _b, ~_a)
-    print(_a << 2, _a >> 2)
-    print(format(_a & _b, "04b"), format(_a | _b, "04b"))
+    p = 12  # 1100
+    q = 10  # 1010
+    print(p & q, p | q, p ^ q, ~p)
+    print(p << 2, p >> 2)
+    print(format(p & q, "04b"), format(p | q, "04b"))
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Operator summary
@@ -134,7 +134,7 @@ def _():
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## The math module
@@ -180,7 +180,7 @@ def _(math):
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## ord and chr functions

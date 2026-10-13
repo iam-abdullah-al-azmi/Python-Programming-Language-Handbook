@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: Convert a given number to binary, octal, and hexadecimal using the format function. Then show the square root of the number rounded up with the math module, and the result of a bitwise AND with 15.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import math
 

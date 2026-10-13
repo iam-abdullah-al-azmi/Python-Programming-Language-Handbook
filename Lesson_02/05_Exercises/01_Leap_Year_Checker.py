@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 01: Check whether a year is a leap year. A year is a leap year if it is divisible by 4 but not by 100, or if it is divisible by 400.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     year = 2100
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:

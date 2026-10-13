@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 03: Count how many times each word appears in a sentence using a dictionary, then print its keys, values and items.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     sentence = "the cat and the dog and the bird"
     frequency = {}
@@ -32,7 +32,7 @@ def _():
     return (frequency,)
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(frequency):
     print(f"Keys: {list(frequency.keys())}")
     print(f"Values: {list(frequency.values())}")

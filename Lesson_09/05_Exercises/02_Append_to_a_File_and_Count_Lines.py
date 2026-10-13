@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Create a temporary file, append two more lines to it, then read it line by line and count the total number of lines. Also try to open a file that does not exist and handle the FileNotFoundError.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import os
     import tempfile

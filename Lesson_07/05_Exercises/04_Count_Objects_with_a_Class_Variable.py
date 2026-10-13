@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: Create a Student class that keeps count of how many objects were created in a class variable, and a class method that returns this count.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     class Student:
         total_students = 0
@@ -31,7 +31,6 @@ def _():
         @classmethod
         def get_total_students(cls):
             return cls.total_students
-
 
     Student("Rafi")
     Student("Mim")

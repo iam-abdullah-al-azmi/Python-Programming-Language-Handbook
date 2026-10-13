@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 01: Create a Student class with name and marks attributes and a method that prints the student's information. Create two objects and call the method.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     class Student:
         def __init__(self, name, marks):
@@ -28,7 +28,6 @@ def _():
 
         def info(self):
             print(f"Name: {self.name} | Marks: {self.marks}")
-
 
     student_one = Student("Rafi", 85)
     student_two = Student("Mim", 92)

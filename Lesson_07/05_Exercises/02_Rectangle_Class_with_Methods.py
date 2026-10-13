@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Create a Rectangle class with a constructor that takes length and width, and methods that return its area and perimeter. Create two rectangles and print the results.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     class Rectangle:
         def __init__(self, length, width):
@@ -31,7 +31,6 @@ def _():
 
         def perimeter(self):
             return 2 * (self.length + self.width)
-
 
     rectangle_one = Rectangle(4, 5)
     rectangle_two = Rectangle(10, 3)

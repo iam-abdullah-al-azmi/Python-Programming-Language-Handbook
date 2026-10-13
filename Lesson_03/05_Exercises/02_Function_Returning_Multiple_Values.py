@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Write a function that takes a list of numbers and returns the minimum, maximum and sum together, then unpack the returned tuple.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     def list_stats(numbers):
         return min(numbers), max(numbers), sum(numbers)

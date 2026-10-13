@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Read student_data.csv, data.json, phitron_student_marks.xlsx and students.parquet and print the shape of each. Then write the first three rows of the CSV DataFrame to a CSV file inside a temporary folder (without the index) and read it back.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import tempfile
     from pathlib import Path

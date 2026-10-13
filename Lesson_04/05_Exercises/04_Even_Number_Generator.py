@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: Write a generator function that yields the even numbers up to a given limit, and use next() and a for loop to read values from it.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     def even_numbers(limit):
         for number in range(2, limit + 1, 2):

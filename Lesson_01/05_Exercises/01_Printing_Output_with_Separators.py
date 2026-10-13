@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 01: Print the three words Python, is, fun on one line separated by dashes, then print your name and your city on two lines using one print call and an escape character.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     print("Python", "is", "fun", sep="-")
     print("Azmi\nDhaka")

@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Use map() with a lambda function to square every number in a list, then use filter() with a lambda function to keep only the squares greater than 20.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     numbers = [1, 2, 3, 4, 5, 6]
 

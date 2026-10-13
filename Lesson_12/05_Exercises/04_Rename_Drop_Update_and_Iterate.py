@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: On a copy of the DataFrame rename FullName to Full Name, drop the Instructor column and drop row 0. Then set the Python Marks of row 1 to 90, add 2 marks to the Python Marks of rows 1 to 3, and loop over the first five rows with iterrows and itertuples printing each student's name and Python Marks.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     from pathlib import Path
     import pandas as pd

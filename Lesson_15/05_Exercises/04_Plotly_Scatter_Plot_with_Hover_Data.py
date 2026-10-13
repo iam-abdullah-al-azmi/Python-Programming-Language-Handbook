@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: Here, you have to draw a Plotly scatter plot of study_hours against test_score, colored by gender, sized by Tshirt_size, and showing subject and hostel on hover.
@@ -19,11 +19,11 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import pandas as pd
-    import plotly.express as px
     from pathlib import Path
+    import plotly.express as px
 
     df = pd.read_csv(Path(__file__).resolve().parent.parent / "sns_data.csv")
 

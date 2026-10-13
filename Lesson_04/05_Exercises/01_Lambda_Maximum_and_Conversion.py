@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 01: Write a lambda function that converts a temperature from Celsius to Fahrenheit (F = C * 9 / 5 + 32) and another lambda that returns the larger of two numbers.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     to_fahrenheit = lambda c: c * 9 / 5 + 32
     larger = lambda a, b: a if a > b else b

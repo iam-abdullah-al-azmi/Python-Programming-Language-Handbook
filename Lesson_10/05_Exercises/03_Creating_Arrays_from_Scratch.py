@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 03: Create arrays using zeros, ones, full and random.randint (seed the generator), then an array of even numbers from 2 to 18 with arange, 5 evenly spaced values between 2 and 20 with linspace and a 4x4 identity matrix. Print their shapes and values.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import numpy as np
 

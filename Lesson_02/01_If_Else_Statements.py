@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     # If-Else Statements
@@ -20,7 +20,7 @@ def _(mo):
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## The if statement
@@ -31,14 +31,14 @@ def _(mo):
 
 @app.cell
 def _():
-    _temperature = 32
-    if _temperature > 30:
+    temperature = 32
+    if temperature > 30:
         print("It is a hot day")
     print("This line always runs")
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## if and else
@@ -49,15 +49,15 @@ def _(mo):
 
 @app.cell
 def _():
-    _number = 7
-    if _number % 2 == 0:
-        print(f"{_number} is even")
+    number = 7
+    if number % 2 == 0:
+        print(f"{number} is even")
     else:
-        print(f"{_number} is odd")
+        print(f"{number} is odd")
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## elif
@@ -68,20 +68,20 @@ def _(mo):
 
 @app.cell
 def _():
-    _score = 76
-    if _score >= 80:
-        _grade = "A"
-    elif _score >= 70:
-        _grade = "B"
-    elif _score >= 60:
-        _grade = "C"
+    score = 76
+    if score >= 80:
+        grade = "A"
+    elif score >= 70:
+        grade = "B"
+    elif score >= 60:
+        grade = "C"
     else:
-        _grade = "F"
-    print(f"Score: {_score} | Grade: {_grade}")
+        grade = "F"
+    print(f"Score: {score} | Grade: {grade}")
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Conditions with logical operators
@@ -92,15 +92,15 @@ def _(mo):
 
 @app.cell
 def _():
-    _year = 2024
-    if (_year % 4 == 0 and _year % 100 != 0) or _year % 400 == 0:
-        print(f"{_year} is a leap year")
+    year = 2024
+    if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+        print(f"{year} is a leap year")
     else:
-        print(f"{_year} is not a leap year")
+        print(f"{year} is not a leap year")
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Nested if
@@ -111,10 +111,10 @@ def _(mo):
 
 @app.cell
 def _():
-    _age = 25
-    _has_id = True
-    if _age >= 18:
-        if _has_id:
+    age = 25
+    has_id = True
+    if age >= 18:
+        if has_id:
             print("Entry allowed")
         else:
             print("Please show an ID")
@@ -123,7 +123,7 @@ def _():
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Minimum and maximum of three numbers
@@ -139,29 +139,29 @@ def _():
     # _num_1 = int(numbers[0])
     # _num_2 = int(numbers[1])
     # _num_3 = int(numbers[2])
-    _num_1 = 7
-    _num_2 = 3
-    _num_3 = 9
+    num_1 = 7
+    num_2 = 3
+    num_3 = 9
 
-    _max_num = _num_1
+    max_num = num_1
 
-    if _num_2 > _max_num:
-        _max_num = _num_2
-    if _num_3 > _max_num:
-        _max_num = _num_3
+    if num_2 > max_num:
+        max_num = num_2
+    if num_3 > max_num:
+        max_num = num_3
 
-    _min_num = _num_1
+    min_num = num_1
 
-    if _num_2 < _min_num:
-        _min_num = _num_2
-    if _num_3 < _min_num:
-        _min_num = _num_3
+    if num_2 < min_num:
+        min_num = num_2
+    if num_3 < min_num:
+        min_num = num_3
 
-    print(_min_num, _max_num)
+    print(min_num, max_num)
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Predict the output
@@ -172,17 +172,17 @@ def _(mo):
 
 @app.cell
 def _():
-    _x = 5
-    if _x > 3:
+    x = 5
+    if x > 3:
         print("A")
-    elif _x > 1:
+    elif x > 1:
         print("B")
     else:
         print("C")
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Taking the number from the user
@@ -205,7 +205,7 @@ def _():
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Conditional expression
@@ -216,9 +216,9 @@ def _(mo):
 
 @app.cell
 def _():
-    _n = 10
-    _label = "even" if _n % 2 == 0 else "odd"
-    print(_n, "is", _label)
+    y = 10
+    label = "even" if y % 2 == 0 else "odd"
+    print(y, "is", label)
     return
 
 

@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Here, you have to take an input from the user and convert it to an integer.
@@ -19,12 +19,12 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
-    _val = input("Enter a number: ")
-    print(f"Value before conversion: {_val} | Type: {type(_val)}")
-    _val = int(_val)
-    print(f"Value after conversion: {_val} | Type: {type(_val)}")
+    val = input("Enter a number: ")
+    print(f"Value before conversion: {val} | Type: {type(val)}")
+    val = int(val)
+    print(f"Value after conversion: {val} | Type: {type(val)}")
     return
 
 

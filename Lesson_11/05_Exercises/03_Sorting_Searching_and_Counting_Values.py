@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 03: Sort a 2D array along each axis, then use where, argmax and argmin to find positions of values greater than 8 and the largest and smallest elements. Finally generate 100 random numbers (seed it), count how many are greater than 40 and check with all and any whether every value is above 0 or any value is above 98.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import numpy as np
 

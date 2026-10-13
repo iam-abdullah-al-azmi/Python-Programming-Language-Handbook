@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Find the common elements of two lists using the set intersection() method, then remove the duplicate values from a list using a set and print the sorted unique values.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     list_a = [1, 2, 3, 4, 5, 6]
     list_b = [4, 5, 6, 7, 8, 9]
@@ -28,7 +28,7 @@ def _():
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     numbers = [3, 1, 2, 3, 4, 1, 5, 2, 5]
     unique = set(numbers)

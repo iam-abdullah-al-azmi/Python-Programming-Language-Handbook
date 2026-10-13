@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: Create a list of the squares of all even numbers from 1 to 20 using list comprehension.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     squares = [x**2 for x in range(1, 21) if x % 2 == 0]
     print(f"Squares of even numbers: {squares}")

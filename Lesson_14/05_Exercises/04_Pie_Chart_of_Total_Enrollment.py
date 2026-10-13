@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: Here, you have to draw a pie chart showing the share of total enrollment between Programming and Digital Marketing over all years.
@@ -19,11 +19,11 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import pandas as pd
-    import matplotlib.pyplot as plt
     from pathlib import Path
+    import matplotlib.pyplot as plt
 
     df = pd.read_csv(Path(__file__).resolve().parent.parent / "enrollment_data.csv")
 

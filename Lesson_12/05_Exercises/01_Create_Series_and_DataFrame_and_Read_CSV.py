@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 01: Create a Series of three marks and a DataFrame of three students from a dictionary, print their types, then read student_data.csv and print the type of the DataFrame and of its StudentID column, plus head, tail, columns, index and info.
@@ -19,13 +19,17 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     from pathlib import Path
     import pandas as pd
 
-    marks = pd.Series([88, 92, 75], index=["Alif", "Fatima", "Imran"], name="Python Marks")
-    students = pd.DataFrame({"Name": ["Alif", "Fatima", "Imran"], "Python Marks": [88, 92, 75]})
+    marks = pd.Series(
+        [88, 92, 75], index=["Alif", "Fatima", "Imran"], name="Python Marks"
+    )
+    students = pd.DataFrame(
+        {"Name": ["Alif", "Fatima", "Imran"], "Python Marks": [88, 92, 75]}
+    )
     print(type(marks), type(students), students.shape)
 
     df = pd.read_csv(Path(__file__).resolve().parent.parent / "student_data.csv")

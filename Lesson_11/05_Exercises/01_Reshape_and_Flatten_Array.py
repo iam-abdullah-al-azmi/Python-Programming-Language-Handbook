@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 01: Create a random 10x2 array (seed it), reshape it to 4x5, then flatten it row-wise and column-wise using ravel. Join two 2x3 arrays row-wise and column-wise using concatenate.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import numpy as np
 

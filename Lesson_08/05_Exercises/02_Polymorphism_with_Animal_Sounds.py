@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Create Dog, Cat and Cow classes that each have a sound() method. Loop over objects of all three classes and call the same method on each.
@@ -19,22 +19,19 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     class Dog:
         def sound(self):
             return "Woof"
 
-
     class Cat:
         def sound(self):
             return "Meow"
 
-
     class Cow:
         def sound(self):
             return "Moo"
-
 
     for animal in (Dog(), Cat(), Cow()):
         print(f"{type(animal).__name__} says {animal.sound()}")

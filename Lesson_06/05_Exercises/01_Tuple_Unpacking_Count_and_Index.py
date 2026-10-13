@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 01: Swap the values of a, b and c by rotating them with tuple unpacking, then count how many times a value appears in a tuple and find the index of its first occurrence.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     a, b, c = (5, 10, 15)
     a, b, c = (c, a, b)
@@ -27,7 +27,7 @@ def _():
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     tup = (10, 20, 10, 30, 10, 40)
     print(f"Tuple: {tup}")

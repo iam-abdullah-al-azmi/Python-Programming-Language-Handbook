@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Find the sum of all even numbers from 1 to a given number using a for loop and an if statement.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     ev_num = 10  # ev_num = int(input("Enter a number:"))
     ev_sum = 0

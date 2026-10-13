@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: Write a recursive function power(base, exponent) that computes base raised to a non-negative whole exponent without using the ** operator, and a recursive function that returns the n-th Fibonacci number.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     def power(base, exponent):
         if exponent == 0:

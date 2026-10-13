@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: Create a BankAccount class with a private balance. Provide deposit(), withdraw() and get_balance() methods, and do not allow withdrawing more than the balance.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     class BankAccount:
         def __init__(self, owner, balance):
@@ -38,7 +38,6 @@ def _():
 
         def get_balance(self):
             return self.__balance
-
 
     account = BankAccount("Azmi", 1000)
     account.deposit(500)

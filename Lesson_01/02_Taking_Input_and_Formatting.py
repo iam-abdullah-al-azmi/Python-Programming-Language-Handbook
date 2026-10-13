@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     # Taking Input and Formatting
@@ -20,7 +20,7 @@ def _(mo):
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Taking user input
@@ -39,7 +39,7 @@ def _():
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     - When using the input function, the input is taken as a string by default. To convert it to an integer, we use the int() function. If we want to take float input, we can use the float() function and others accordingly.
@@ -59,7 +59,7 @@ def _():
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     The next cell imitates what input returns by using a string directly. Notice that the value is text until we convert it.
@@ -69,15 +69,15 @@ def _(mo):
 
 @app.cell
 def _():
-    _typed = "25"  # this is what input() would return
-    print(_typed, type(_typed))
-    _as_int = int(_typed)
-    _as_float = float(_typed)
-    print(_as_int + 5, _as_float + 5)
+    typed = "25"  # this is what input() would return
+    print(typed, type(typed))
+    as_int = int(typed)
+    as_float = float(typed)
+    print(as_int + 5, as_float + 5)
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Formatting with the format function
@@ -88,31 +88,31 @@ def _(mo):
 
 @app.cell
 def _():
-    _d = 34.44456968
-    _d = format(_d, ".3f")  # This will round the number to 3 decimal places
-    print(_d, type(_d))
+    x = 34.44456968
+    x = format(x, ".3f")  # This will round the number to 3 decimal places
+    print(x, type(x))
     return
 
 
 @app.cell
 def _():
-    _d = 34.44456968
-    _d = format(
-        _d, "7.3f"
+    y = 34.44456968
+    y = format(
+        y, "7.3f"
     )  # This will round the number to 3 decimal places and make the total length 7 by adding spaces in the front if necessary
-    print(_d, len(_d), type(_d))
-    print(" " in _d)
-    print(f"{_d.find(' ')}")
+    print(y, len(y), type(y))
+    print(" " in y)
+    print(f"{y.find(' ')}")
     return
 
 
 @app.cell
 def _():
-    x = 20.345123
-    x = format(
-        x, "<7.3f"
+    z = 20.345123
+    z = format(
+        z, "<7.3f"
     )  # This will round the number to 3 decimal places and make the total length 7 by adding spaces in the back if necessary
-    print(x, len(x))
+    print(z, len(z))
     return
 
 
@@ -125,7 +125,7 @@ def _():
     return (pi,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Specifier format
@@ -142,8 +142,8 @@ def _(mo):
 
 @app.cell
 def _():
-    _val = 344
-    print(format(_val, "10X"))
+    val = 344
+    print(format(val, "10X"))
     return
 
 
@@ -156,7 +156,7 @@ def _():
     return (characters,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## Number systems
@@ -167,12 +167,12 @@ def _(mo):
 
 @app.cell
 def _():
-    _num = 255
-    print(format(_num, "b"), format(_num, "o"), format(_num, "x"), format(_num, "X"))
+    num = 255
+    print(format(num, "b"), format(num, "o"), format(num, "x"), format(num, "X"))
     return
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     ## f-strings
@@ -183,10 +183,10 @@ def _(mo):
 
 @app.cell
 def _():
-    _name = "Azmi"
-    _price = 1234.5678
-    print(f"{_name} paid ${_price:.2f}")
-    print(f"[{_name:<10}] [{_name:>10}] [{_price:>12.1f}]")
+    name = "Azmi"
+    price = 1234.5678
+    print(f"{name} paid ${price:.2f}")
+    print(f"[{name:<10}] [{name:>10}] [{price:>12.1f}]")
     return
 
 

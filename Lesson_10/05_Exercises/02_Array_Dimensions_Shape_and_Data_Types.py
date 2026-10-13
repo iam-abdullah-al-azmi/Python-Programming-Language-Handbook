@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 02: Create a 1D, a 2D and a 3D NumPy array and print the dimension, shape, size and data type of each one. Then create arrays from ints, from a mix of ints and floats and from a mix of ints and strings to show the upcasting, and convert an int16 array to int8 using astype.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import numpy as np
 
@@ -28,7 +28,9 @@ def _():
     _three = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 
     for _name, _arr in [("1D", _one), ("2D", _two), ("3D", _three)]:
-        print(f"{_name} -> ndim: {_arr.ndim} | shape: {_arr.shape} | size: {_arr.size} | dtype: {_arr.dtype}")
+        print(
+            f"{_name} -> ndim: {_arr.ndim} | shape: {_arr.shape} | size: {_arr.size} | dtype: {_arr.dtype}"
+        )
 
     _ints = np.array([1, 2, 3])
     _mixed = np.array([1, 2.5, 3])

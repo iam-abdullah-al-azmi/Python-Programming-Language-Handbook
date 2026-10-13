@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 04: Merge two dictionaries into a new one (the value from the second dictionary wins for a repeated key), then use a dictionary of student marks to print the average mark of one student with two decimal places.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     first = {"a": 1, "b": 2, "c": 3}
     second = {"c": 30, "d": 40}
@@ -33,7 +33,7 @@ def _():
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     student_marks = {
         "Krishna": [67, 68, 69],

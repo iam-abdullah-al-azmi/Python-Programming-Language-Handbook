@@ -11,7 +11,7 @@ def _():
     return (mo,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def _(mo):
     mo.md(r"""
     Exercise 03: Select the FullName column (check that it is a Series) and print describe() for the marks columns. Using loc, select row 0, rows 3 to 7 and the CompletionStatus of rows 3 to 7. Then set StudentID as the index, select the rows at positions 3 to 6 with iloc and the row labelled PH1003 with loc.
@@ -19,7 +19,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     from pathlib import Path
     import pandas as pd
