@@ -50,10 +50,6 @@ marimo edit Lesson_01/01_Printing_Output.py
 
 To run a notebook as a read-only app instead, use `marimo run <file>`.
 
-## Contributing
-
-Found a mistake or want to improve a lesson? Open an issue or a pull request.
-
 ## Acknowledgements
 
 - The structure of this README (overview, prerequisites, repository layout, how to use the course, and a separate syllabus file) follows the example of the [ReDI School of Digital Integration introduction-to-python course](https://github.com/ReDI-Aarhus/introduction-to-python).
