@@ -4,6 +4,8 @@ The course has 15 lessons. Each lesson has four lesson notebooks and four exerci
 
 Work through the lessons in order. Open the notebook of a lesson first, then do the exercises of the same lesson.
 
+<!--
+
 | Lesson                                             | Topic                             |
 | -------------------------------------------------- | --------------------------------- |
 | [01](#lesson-01-python-basics)                     | Python Basics                     |
@@ -21,6 +23,8 @@ Work through the lessons in order. Open the notebook of a lesson first, then do 
 | [13](#lesson-13-pandas-data-cleaning-and-analysis) | Pandas Data Cleaning and Analysis |
 | [14](#lesson-14-matplotlib-visualization)          | Matplotlib Visualization          |
 | [15](#lesson-15-seaborn-and-plotly-visualization)  | Seaborn and Plotly Visualization  |
+
+ -->
 
 ## Lesson 01: Python Basics
 

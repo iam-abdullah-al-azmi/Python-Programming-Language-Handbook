@@ -28,6 +28,8 @@ The lessons are [marimo](https://marimo.io/) notebooks instead of plain Python f
 | 14     | [Matplotlib Visualization](SYLLABUS.md#lesson-14-matplotlib-visualization)                   |
 | 15     | [Seaborn and Plotly Visualization](SYLLABUS.md#lesson-15-seaborn-and-plotly-visualization)   |
 
+For a detailed overview of the course, please go to [SYLLABUS.md](/SYLLABUS.md) file.
+
 ## Prerequisites
 
 - A recent version of Python 3, from [python.org](https://www.python.org/downloads/).
