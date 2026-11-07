@@ -47,7 +47,7 @@ pip install -r requirements.txt
 3. Open any notebook in the marimo editor, for example:
 
 ```bash
-marimo edit Lesson_01/01_Printing_Output.py
+marimo edit Lesson_01/marimo/01_Printing_Output.py
 ```
 
 To run a notebook as a read-only app instead, use `marimo run <file>`.
